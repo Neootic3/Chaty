@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Chat App</title>
+  <title>Chaty</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Chat App</h1>
-  <div id="messages" class="messages"></div>
-  <input id="msgInput" placeholder="Type a message" />
-  <button onclick="sendMessage()">Send</button>
+  <h1>Chaty</h1>
+  <div id="messages"></div>
+  <div id="inputContainer">
+    <input id="msgInput" placeholder="Type a message" />
+    <button onclick="sendMessage()">Send</button>
+  </div>
 
   <script src="https://cdn.socket.io/4.7.1/socket.io.min.js"></script>
   <script src="script.js"></script>
