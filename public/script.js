@@ -1,4 +1,4 @@
-const socket = io('http://localhost:5000');
+const socket = io('https://chaty-tx32.onrender.com/');
 const messagesDiv = document.getElementById('messages');
 const msgInput = document.getElementById('msgInput');
 
